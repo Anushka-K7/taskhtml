@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form </title>
+<h1>The form target Attribute</h1>
+</head>
+<body>
+<form action="\Tasks\Day2\task2.html"method="get">  <!-- AFTER SUBMIT IT WILL REDIRECT TO FILE HERE  -->
+    <label>First Name :</label>
+        <input name="input" type="text"/><br><br>
+<label>Last Name :</label>
+        <input name="input" type="text"/><br><br>
+ <label>Email : </label>    
+        <input type="email" name="Email"><br><br>
+        <label>Password :</label>
+        <input type="password" name="Password">      
+  <br><br>    
+
+<!-- RADIO BUTTON HERE -->
+<label>Gender :</label> 
+ <input name="input"type="radio" name="gender"value="Female"/>
+     <label> Female</label>
+ <input name="input"type="radio" name="gender" value="male"/>
+     <label> Male</label><br><br>
+        <label>Age :</label> 
+        <input type="number" name="Age">
+<br><br>
+<!-- CHECKBOX BUTTON HERE -->
+<label>Preferred language : </label> 
+<br><br>
+<input  name="input" type="checkbox"value="java">
+<label> Java</label><br><br>
+<input  name="input" type="checkbox"value="C">
+<label> C</label><br><br>
+<input  name="input" type="checkbox"value="C++">
+<label>C++</label><br><br>
+<input  name="input" type="checkbox"value="Database">
+<label>Database</label><br><hr><br>
+
+<label>Occupation :</label>
+<input type="text" name="Occupation :">
+<br><br>
+<!-- SELECT ELEMENT HERE -->
+<label>Select State :</label>
+<select name="State">
+    <option>select</option>
+    <option value="Maharashtra">Maharashtra</option>
+    <option value="Dehli">Dehli</option>
+    <option value="MP">MP</option>
+</select>
+
+<br><br>
+ 
+<label>Bio :</label>
+<textarea name="message"rows="-5"col="10">
+    write your bio
+ </textarea>
+ 
+
+
+<br><br>
+<!-- SUBMIT BUTTON HERE -->
+<input type="submit" value="submit">
+<!-- RESET BUTTON HERE -->
+ <input type="reset" value="reset">
+ <!-- CANCEL BUTTON HERE -->
+ <input type="button" value="cancel">
+ <br><br>
+ <input type="button">
+</form>
+</body>
+</html>
